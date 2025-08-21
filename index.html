@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form class="search-box" autocomplete="off" aria-label="Buscar localização">
+                <i class="bx bx-location"></i>
+                <input 
+                    type="text" 
+                    placeholder="Localização" 
+                    aria-label="Digite a localização"
+                    autocomplete="off"
+                >
+                <button type="submit" class="bx bx-search" aria-label="Buscar">
+                    <span class="sr-only">Buscar</span>
+                </button>
+            </form>
+
+            <div class="weather-box">
+                <div class="box">
+                    <div class="info-weather">
+                        <div class="weather">
+                            <img src="images/cloud.png" alt="Ícone do clima">
+                            <p class="temperature">0<span>°C</span></p>
+                            <p class="description">Broken Clouds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="bx bx-water"></i>
+                    <div class="text">
+                        <div class="info-humidity">
+                            <span>0%</span>
+                        </div>
+                        <p>Umidade</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="bx bx-wind"></i>
+                    <div class="text">
+                        <div class="info-wind">
+                            <span>0Km/h</span>
+                        </div>
+                        <p>Velocidade do vento</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="not-found">
+                <div class="box">
+                    <img src="images/404.png" alt="Não encontrado">
+                    <p>Oops! Local indisponível!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
