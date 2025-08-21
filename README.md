@@ -15,18 +15,4 @@ Aplicação web para consultar o clima em tempo real usando a **API OpenWeatherM
 - **OpenWeatherMap API**  
 
 
-🇺🇸 English
 
-# 🌦️ Weather App
-
-Web application to check real-time weather using the **OpenWeatherMap API**.
-
-## 🚀 Features
-- Search weather by city.  
-- Displays temperature, description, humidity, and wind.  
-- Dynamic icons and error messages.  
-- Smooth transition animations.  
-
-## 🛠️ Technologies
-- **HTML5**, **CSS3**, **JavaScript (ES6+)**  
-- **OpenWeatherMap API**  
