@@ -1,5 +1,3 @@
-🇧🇷 Português
-
 # 🌦️ Weather App
 
 Aplicação web para consultar o clima em tempo real usando a **API OpenWeatherMap**.
